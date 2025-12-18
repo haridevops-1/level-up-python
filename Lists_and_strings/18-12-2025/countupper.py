@@ -5,6 +5,7 @@
 # Output: 3
 
 def countUpper(words: str):
+    ## start
     if len(words) == 0:
         return "Invalid Input"
     else:
@@ -14,5 +15,5 @@ def countUpper(words: str):
             if words[ch] in upper:
                 count = count + 1
         return count 
-        
+    ##End
 print(countUpper("PyTHon"))
